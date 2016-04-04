@@ -1,0 +1,30 @@
+{
+  "name": "ua-element-factory",
+  "version": "1.0.0",
+  "authors": [
+    "Reinier Brummelkamp <reinier@urbanautomation.co.za>"
+  ],
+  "description": "Element factory component for the Solitude framework",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "ua-element-factory"
+  ],
+  "main": "ElementFactory.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/reinier-brummelkamp/ua-element-factory/",
+  "ignore": [
+    "/.gitattributes",
+    "/.gitignore",
+    "/test/",
+    "/demo/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*"
+  }
+}
