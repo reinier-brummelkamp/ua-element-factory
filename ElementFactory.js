@@ -34,6 +34,9 @@ var ElementFactory = (function () {
                     } else {
                         var importHref = elementCatalogue[elementName];
 
+                        if (!importHref)
+                            throw "Element '<" + elementName + ">' has not been registered, please register the element using '.registerElement('" + elementName + "', '/path/to/element.html')'.";
+
                         Polymer.Base.importHref(importHref,
                             function () {
                                 elementImported[elementName] = true;
